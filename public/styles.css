@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+.header {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#progress-tracker {
+    font-size: 40px;
+}
+
+.play-button {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-size: 25px;
+}
+
+.play-button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+#first-number {
+
+}
+
+#second-number {
+    
+}
+
+#math-game {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.output-input {
+    border: none;
+    font-size: 50px;
+    width: 80px;
+    outline: none;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+#song-player {
+    margin: 0 auto;
+    padding: 20px 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}

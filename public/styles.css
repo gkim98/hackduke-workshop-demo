@@ -11,11 +11,7 @@
     justify-content: space-between;
 }
 
-#progress-tracker {
-    font-size: 40px;
-}
-
-.play-button {
+#play-button {
     display: inline-block;
     border: 1px solid black;
     padding: 10px 40px;
@@ -25,9 +21,18 @@
     font-size: 25px;
 }
 
-.play-button:hover {
+#play-button:hover {
     color: white;
     background-color: black;
+}
+
+#finish-time {
+    font-size: 40px;
+    opacity: 0;
+}
+
+#progress-tracker {
+    font-size: 40px;
 }
 
 
@@ -47,7 +52,7 @@
     font-size: 50px;
 }
 
-.output-input {
+#output-input {
     border: none;
     font-size: 50px;
     width: 80px;
@@ -62,4 +67,13 @@
     border-radius: 6px;
     font-size: 20px;
     font-family: 'Montserrat';
+}
+
+.distractor {
+    position: fixed;
+    opacity: .4;
+    pointer-events: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }

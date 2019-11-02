@@ -9,19 +9,24 @@
   </head>
   <body>
       <audio src="song.mp3" id="song"></audio>
+
       <div class="header">
-          <div class="play-button">Start</div>
-          <div id="progress-tracker">0/10</div>
+          <div id="play-button">Start</div>
+          <div id="finish-time"></div>
+          <div id="progress-tracker"><span id="question-num">0</span>/10</div>
       </div>
 
       <div id="math-game">
-        <span id="first-number">00</span>
+        <span id="first-number">0</span>
         +
-        <span id="second-number">00</span>
+        <span id="second-number">0</span>
         =
-        <input class="output-input" />
+        <input id="output-input" />
       </div>
 
+      <div id="distractor-container">
+
+      </div>
 
     <script src="scripts.js"></script>
   </body>

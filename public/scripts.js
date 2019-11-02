@@ -13,6 +13,9 @@ let secondNum = document.getElementById('second-number')
 let outputInput = document.getElementById('output-input')
 let distractionTimeout;
 
+outputInput.value = ''
+
+
 const beginGame = function() {
     gameStarted = true;
     currQuestion = 1;
